@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body{
+    height: 100%;
+    background-color: #0a0a0a;
+    background-image: radial-gradient(ellipse at 20% 50%, rgba(29, 161, 242, 0.05) 0%, transparent 60%),
+                      radial-gradient(ellipse at 80% 20%, rgba(131, 52, 175, 0.07) 0%, transparent 50%);
+}
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-lg{
+    display: flex;
+    width: 700px;
+    height: auto;
+    background-color: transparent;
+}
+
+.login{
+    width: 400px;
+    height: 500px;
+    background-color: #9894f0;
+    color: black;
+    box-sizing: border-box; 
+    padding: 30px 40px;
+    border-radius: 10px;
+    animation-name: border;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes border{
+    0%{
+        border-radius: 0%;
+    
+    }
+
+    100%{
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+}
+
+.login .title{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 30px 0;
+    margin-top: 5px;
+    display: block;
+    
+
+}
+
+.login h2{
+    margin: 0%;
+    padding: 0%;
+    font-weight: unset;
+    display: block;
+}
+
+.login input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border: none;
+    border-color: transparent;
+    color: white;
+    background-color: #9894f0;
+    border-bottom: white 2px  solid;
+    font-size: 16px;
+
+}
+
+.login button{
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(253, 251, 254);
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.login button a{
+    color:black;
+    text-decoration: none;
+    
+}
+
+.login .access:hover{
+    background-color: rgb(186, 191, 194);
+    cursor: pointer;
+}
+
+.login a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    margin: 2px 0 0 0;
+}
+
+.login a:hover{
+
+    color:black 
+
+}
+
+.login-nt{
+     width: 400px;
+    height: 500px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box; 
+    padding: 40px;
+    border-radius: 10px;
+    animation-name: border2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards
+
+}
+
+@keyframes border2{
+    0%{
+        border-radius: 0%;
+    
+    }
+
+    100%{
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+}
+
+.login-nt .title{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 30px 0;
+    margin-top: 5px;
+    display: block;
+}
+
+.login-nt button{
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+
+    
+
+    
+
+
+
+}
+
+.login-nt button i{
+   position: absolute; 
+   top: 10px; 
+   left: 20px;
+   
+   
+
+}
+
+
+.login-nt .mail {
+      background-color: orangered;
+      color: white;
+      font-size: 18px;
+
+
+}
+
+ .login-nt .mail:hover {
+    background-color: rgb(219, 74, 0);
+    box-shadow: 0 4px 15px rgba(255, 69, 0, 0.8);
+    cursor: pointer;
+}
+
+.login-nt .fb {
+    background-color: #3b5999;
+      color: white;
+      font-size: 18px;
+}
+
+.login-nt .fb:hover {
+    background-color: #2d4474;
+    box-shadow: 0 4px 15px rgba(59, 89, 153, 0.8);
+    cursor: pointer;
+}
+
+.login-nt .x {
+    background-image: linear-gradient(to bottom right, #1A1A2E, #1DA1F2);
+      color: white;
+      font-size: 18px;
+      
+ 
+}
+
+.login-nt .x:hover {
+    background-image: linear-gradient(to bottom right, #1A1A2E, #1DA1F2);
+    box-shadow: 0 4px 15px rgba(29, 161, 242, 0.8);
+    cursor: pointer;
+}
+
+.login-nt .ig {
+    background-image: linear-gradient(to bottom right, #515BD4, #8134AF,  #DD2A7B, #FEDA77, #F58529  );
+    color: white;
+      font-size: 18px;
+      
+}
+
+.login-nt .ig:hover {
+    background-image: linear-gradient(to bottom right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    box-shadow: 0 4px 15px rgba(221, 42, 123, 0.8);
+    cursor: pointer;
+}

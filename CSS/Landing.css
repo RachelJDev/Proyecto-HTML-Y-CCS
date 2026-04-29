@@ -1,0 +1,79 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+ }
+
+ body{
+   background-image: url(../Img/Fondo\ index.png);
+    background-size: cover;        /* La imagen cubre toda la pantalla */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    background-position: center;   /* La centra correctamente */
+    height: 100vh;                 /* Asegura que el body ocupe toda la pantalla */
+    width: 100%;
+
+ }
+
+ .contenedor{
+    position: relative;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    align-content:center;
+
+
+ }
+
+ .imagen img {
+    width:600px;     /* Ajusta el tamaño que necesites */
+    height: auto;     /* Mantiene la proporción */
+    margin-top:50px; /* Para que no pegue el tope de arriba*/
+     margin-right: 50px;
+     border-radius: 50px;
+}
+
+.textos{
+   
+   z-index: index 1;;
+   margin-left:50px;
+   margin-right:50px;
+
+}
+
+.titulo{
+    color: #7A73FF;
+    font-size: 50px;
+    
+}
+
+.subtitulo {
+    text-align: justify;
+    font-family: "Rubik", sans-serif;
+    font-size:20px
+}
+  button{
+    display: inline-block;
+     background-color: #7A73FF; /* color de fondo */
+    color: white;              /* texto */
+    padding: 12px 25px;        /* tamaño interno */
+    font-size: 16px;           /* tamaño del texto */
+    border: none;              /* quitar borde */
+    border-radius: 10px;       /* esquinas redondeadas */
+    cursor: pointer;           /* mano al pasar encima */
+    margin-top: 20px; 
+
+    
+    
+    
+}
+
+button:hover { /* para que se escurezca al tocar y se agrande el botton usamos hover */
+    background-color: #5f58e6; /* un tono más oscuro */
+    transform: scale(1.05);    /* crece un poquito */
+    transition: 0.2s;
+}
+
+button a {
+    color: white !important;
+    text-decoration: none;
+}
