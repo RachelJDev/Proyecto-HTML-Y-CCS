@@ -19,14 +19,16 @@
                 <h2 class="title">Ingresa tu Usuario y Contrasena</h2>
                 <form action="">
                     <h2>Ingresa tu Usuario:</h2>
-                    <input type="text" placeholder="Usuario">
+                    <input type="text" id="usuario" placeholder="Usuario">
+                     <p id="errorUsuario" class="error"></p>
 
                     <h2>Ingresa tu Contrasena</h2>
-                    <input type="password" placeholder="Contrasena">
+                    <input type="password" id="contrasena" placeholder="Contrasena">
+                     <p id="errorContrasena" class="error"></p>
 
-                    <button class="access"><a href="Index.html">Acceder</a></button>
-                    <a href="#">Olvidaste tu Contrasena?</a>
-                    <a href="Registro.html">Registrate</a>
+                    <button class="access" id="btnLogin">Acceder</button>
+<a href="#">Olvidaste tu Contrasena?</a>
+<a href="Registro.html">Registrate</a>
                 </form>
             </div>
 
@@ -41,5 +43,6 @@
             </div>
         </div>
     </div>
+    <script src="JS/Login.js"></script>
 </body>
 </html>
