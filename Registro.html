@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FormularioRegistro</title>
     <link rel="stylesheet" href="CSS/Registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <main>
@@ -26,13 +28,17 @@
                 <p id="errorCorreo" class="error"></p>
 
                 <h2>Contraseña</h2>
-                <input type="password" id="contraseña" placeholder="Ingrese una Contraseña">
-                <p id="errorContrasena" class="error"></p>
+<div class="input-password">
+    <input type="password" id="contrasena" placeholder="Ingrese una Contraseña">
+    <i class="fa-solid fa-eye" id="ojito"></i>
+</div>
+<p id="errorContrasena" class="error"></p>
+                 <p id="errorContrasena" class="error"></p>
 
                 <button class="register" id="btnRegistro">Registrate</button>
                 <a href="Login.html">¿Ya tienes una  Cuenta? Inicia Secion</a>
 
-                <script src="JS/Registro.js"></script>
+               
 
             </form>
             

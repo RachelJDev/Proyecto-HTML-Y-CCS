@@ -81,7 +81,7 @@ main {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     outline: none;
-    transition: all 0.3s ease;
+    transition: border 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
  
 .form input::placeholder {
@@ -136,4 +136,43 @@ main {
  
 .form > a:hover {
     color: #1DA1F2;
+
+}
+    .error {
+    color: red;
+    font-size: 12px;
+    margin-top: -4px;
+    margin-bottom: 4px;
+}
+
+.input-password {
+    position: relative;
+    width: 100%;
+}
+
+.input-password input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.input-password i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888888;
+}
+
+
+@keyframes temblar {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-8px); }
+    50%  { transform: translateX(8px); }
+    75%  { transform: translateX(-8px); }
+    100% { transform: translateX(0); }
+}
+
+.temblar {
+    animation: temblar 0.3s ease;
 }
