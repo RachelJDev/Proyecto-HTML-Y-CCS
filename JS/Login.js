@@ -6,11 +6,6 @@ let ojito = document.getElementById("ojito")
 let errorUsuario = document.getElementById("errorUsuario")
 let errorContrasena = document.getElementById("errorContrasena")
 
-boton.addEventListener("click", function(e) {
-
-e.preventDefault()
-
-
 ojito.addEventListener("click", function() {
     if (contrasena.type === "password") {
         contrasena.type = "text"
@@ -22,6 +17,16 @@ ojito.addEventListener("click", function() {
         ojito.classList.add("fa-eye")
     }
 })
+
+
+
+
+boton.addEventListener("click", function(e) {
+
+e.preventDefault()
+
+
+
 
 let valido = true
  if (usuario.value === "") {
