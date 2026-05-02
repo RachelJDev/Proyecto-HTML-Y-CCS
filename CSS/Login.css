@@ -258,3 +258,19 @@ body{
     cursor: pointer;
     color: white;
 }
+
+/* ===== TABLET ===== */
+@media (max-width: 1024px) {
+    .conteiner-lg {
+        width: 95%;
+        transform: scale(0.85);
+    }
+}
+
+/* ===== CELULAR ===== */
+@media (max-width: 768px) {
+    .conteiner-lg {
+        width: 95%;
+        transform: scale(0.55);
+    }
+}
